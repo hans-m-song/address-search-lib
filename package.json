@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "compile": "tsc",
+    "test": "jest",
+    "test:ci": "yarn test --ci --coverage"
   },
   "author": "",
   "license": "ISC",
@@ -18,9 +20,15 @@
   },
   "dependencies": {
     "axios": "^0.21.1",
-    "dotenv": "^8.2.0"
+    "dotenv": "^8.2.0",
+    "pactum": "^3.7.0",
+    "zod": "^3.23.8"
   },
   "jest": {
     "testEnvironment": "node"
+  },
+  "engines": {
+    "node": "20",
+    "yarn": ">=1.22"
   }
 }

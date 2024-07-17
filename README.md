@@ -1,40 +1,35 @@
-Scenario:
-=========
+# Maps API
 
-A developer on our team was working on integrating the TomTom API. They did a great job laying the groundwork, but they've recently been promoted to a new project that requires their full attention.
+This library provides some simplified fuzzy address search functions for consumption by other backend services.
+Under the hood, it integrates with the TomTom Search API.
 
-We are pretty confident the developer managed to complete the majority of the initial part of the integration, however there might be a bug or two to be discovered.
+## Configuration
 
-Your task is to finish off this implementation, ensuring the requirements are met with passing tests.
+There are a number of options to configure this library and are required specifically for the E2E tests:
 
+-   `TOMTOM_API_KEY` - (**required**) API key required to communicate with the TomTom Search API
+-   `TOMTOM_API_URI` - the uri to communicate with the TomTom Search API (defaults to `https://api.tomtom.com`)
 
-Task:
-=====
-To take a partial address input and return full address suggestions along with the address broken into its individual components using the TomTom API.
+## Getting started
 
+Prerequisites:
 
-Resources:
-==========
+-   Node.js >=20 (consider [nvm](https://nvm.sh))
+-   Yarn v1
+-   (Optionally) a TomTom API key
 
-Place Search Documentation: https://developer.tomtom.com/search-api/documentation/search-service/search-service
-API Key: nope
+Install dependencies
 
-Install:
-========
-1. yarn install
+```bash
+yarn install
+```
 
-Test:
-=====
-1. yarn install
-2. yarn test
+Run unit tests
 
+```bash
+yarn test
+```
 
-Requirements:
-=============
+## Documentation
 
-1. All tests should pass and ensure good coverage for new work
-2. We only allow Australian addresses to be returned
-3. Code should be maintainable and consistent
-4. The result elements should contain important information about the place (country, municipality, etc)
-5. The returned result should be typed and easily consumable via users of the library
-6. No front-end requirements are necessary, this is purely a backend NodeJS library
+-   [TomTom Search API Documentation](https://developer.tomtom.com/search-api/documentation/product-information/introduction)

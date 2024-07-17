@@ -1,0 +1,354 @@
+{
+  "summary": {
+    "query": "charlotte street",
+    "queryType": "NON_NEAR",
+    "queryTime": 84,
+    "numResults": 20,
+    "offset": 0,
+    "totalResults": 100,
+    "fuzzyLevel": 1,
+    "queryIntent": []
+  },
+  "results": [
+    {
+      "type": "Geography",
+      "id": "RCBrnfWrm7eDZgsldPdl3w",
+      "score": 4.6182746887,
+      "entityType": "Neighbourhood",
+      "address": {
+        "municipality": "Asheville",
+        "neighbourhood": "Charlotte Street",
+        "countrySecondarySubdivision": "Buncombe",
+        "countrySubdivision": "NC",
+        "countrySubdivisionName": "North Carolina",
+        "countrySubdivisionCode": "NC",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "Charlotte Street, Asheville, NC"
+      },
+      "position": {
+        "lat": 35.602812,
+        "lon": -82.544069
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 35.60843,
+          "lon": -82.54692
+        },
+        "btmRightPoint": {
+          "lat": 35.60024,
+          "lon": -82.54001
+        }
+      },
+      "boundingBox": {
+        "topLeftPoint": {
+          "lat": 35.608426,
+          "lon": -82.546919
+        },
+        "btmRightPoint": {
+          "lat": 35.600243,
+          "lon": -82.540013
+        }
+      },
+      "dataSources": {
+        "geometry": {
+          "id": "9a5a2a5e-9068-4ae0-8ced-fb43863f3f10"
+        }
+      }
+    },
+    {
+      "type": "Street",
+      "id": "NLDBzuBiRUcQIUZFlGNf2w",
+      "score": 4.6116523743,
+      "address": {
+        "streetName": "Charlotte Street",
+        "municipality": "Bega",
+        "countrySecondarySubdivision": "South Coast New South Wales Lower",
+        "countrySubdivision": "New South Wales",
+        "countrySubdivisionName": "New South Wales",
+        "countrySubdivisionCode": "NSW",
+        "countryCode": "AU",
+        "country": "Australia",
+        "countryCodeISO3": "AUS",
+        "freeformAddress": "Charlotte Street, BegaNew South Wales,",
+        "localName": "Bega"
+      },
+      "position": {
+        "lat": -36.688813,
+        "lon": 149.832888
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": -36.6793,
+          "lon": 149.82116
+        },
+        "btmRightPoint": {
+          "lat": -36.69728,
+          "lon": 149.84359
+        }
+      }
+    },
+    {
+      "type": "Street",
+      "id": "EcePYZ-uG3vIMUf520qT5A",
+      "score": 4.6116523743,
+      "address": {
+        "streetName": "Charlotte Street",
+        "countrySecondarySubdivision": "Central Coast Queensland",
+        "countrySubdivision": "Queensland",
+        "countrySubdivisionName": "Queensland",
+        "countrySubdivisionCode": "QLD",
+        "countryCode": "AU",
+        "country": "Australia",
+        "countryCodeISO3": "AUS",
+        "freeformAddress": "Charlotte Street, Central Coast QueenslandQueensland,"
+      },
+      "position": {
+        "lat": -23.162896,
+        "lon": 150.761297
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": -23.16286,
+          "lon": 150.76096
+        },
+        "btmRightPoint": {
+          "lat": -23.16292,
+          "lon": 150.76157
+        }
+      }
+    },
+    {
+      "type": "Street",
+      "id": "JsBmAfbm7Py0wrMqYMKzmA",
+      "score": 4.6116523743,
+      "address": {
+        "streetName": "Charlotte Street",
+        "municipality": "Charters Towers",
+        "countrySecondarySubdivision": "Central Coast Queensland",
+        "countrySubdivision": "Queensland",
+        "countrySubdivisionName": "Queensland",
+        "countrySubdivisionCode": "QLD",
+        "countryCode": "AU",
+        "country": "Australia",
+        "countryCodeISO3": "AUS",
+        "freeformAddress": "Charlotte Street, Charters TowersQueensland,",
+        "localName": "Charters Towers"
+      },
+      "position": {
+        "lat": -20.076362,
+        "lon": 146.251408
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": -20.07392,
+          "lon": 146.24824
+        },
+        "btmRightPoint": {
+          "lat": -20.07767,
+          "lon": 146.25503
+        }
+      }
+    },
+    {
+      "type": "Street",
+      "id": "YLJRodoOv5ihbPiOE2xQ2Q",
+      "score": 4.6116523743,
+      "address": {
+        "streetName": "Charlotte Street",
+        "countrySecondarySubdivision": "Maranoa",
+        "countrySubdivision": "Queensland",
+        "countrySubdivisionName": "Queensland",
+        "countrySubdivisionCode": "QLD",
+        "countryCode": "AU",
+        "country": "Australia",
+        "countryCodeISO3": "AUS",
+        "freeformAddress": "Charlotte Street, MaranoaQueensland,"
+      },
+      "position": {
+        "lat": -27.155205,
+        "lon": 149.069769
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": -27.1515,
+          "lon": 149.06922
+        },
+        "btmRightPoint": {
+          "lat": -27.15882,
+          "lon": 149.07037
+        }
+      }
+    },
+    {
+      "type": "Street",
+      "id": "YGgopHBD3dfiZbqFBvwGog",
+      "score": 4.6116523743,
+      "address": {
+        "streetName": "Charlotte Street",
+        "municipality": "Adelaide",
+        "countrySecondarySubdivision": "Adelaide",
+        "countrySubdivision": "South Australia",
+        "countrySubdivisionName": "South Australia",
+        "countrySubdivisionCode": "SA",
+        "countryCode": "AU",
+        "country": "Australia",
+        "countryCodeISO3": "AUS",
+        "freeformAddress": "Charlotte Street, AdelaideSouth Australia,",
+        "localName": "Adelaide"
+      },
+      "position": {
+        "lat": -34.679421,
+        "lon": 138.690667
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": -34.67709,
+          "lon": 138.68901
+        },
+        "btmRightPoint": {
+          "lat": -34.68202,
+          "lon": 138.69264
+        }
+      }
+    },
+    {
+      "type": "Street",
+      "id": "lGSahKnq1xXm3RqO4G6O4g",
+      "score": 4.6116523743,
+      "address": {
+        "streetName": "Charlotte Avenue",
+        "municipality": "Youngstown",
+        "neighbourhood": "East Side",
+        "countrySecondarySubdivision": "Mahoning",
+        "countrySubdivision": "OH",
+        "countrySubdivisionName": "Ohio",
+        "countrySubdivisionCode": "OH",
+        "postalCode": "44506",
+        "extendedPostalCode": "44506-1305, 44506-1306, 44506-1308, 44506-1330, 44506-1331, 44506-1334",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "Charlotte Avenue, Youngstown, OH 44506",
+        "localName": "Youngstown"
+      },
+      "position": {
+        "lat": 41.098872,
+        "lon": -80.628363
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 41.09887,
+          "lon": -80.63197
+        },
+        "btmRightPoint": {
+          "lat": 41.09886,
+          "lon": -80.62583
+        }
+      }
+    },
+    {
+      "type": "Street",
+      "id": "1J3trc0dN7saC3TbFpcKkg",
+      "score": 4.6116523743,
+      "address": {
+        "streetName": "Charlotte Avenue",
+        "municipality": "Peebles",
+        "countrySecondarySubdivision": "Adams",
+        "countrySubdivision": "OH",
+        "countrySubdivisionName": "Ohio",
+        "countrySubdivisionCode": "OH",
+        "postalCode": "45660",
+        "extendedPostalCode": "45660-1201, 45660-1238, 45660-1299",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "Charlotte Avenue, Peebles, OH 45660",
+        "localName": "Peebles"
+      },
+      "position": {
+        "lat": 38.951476,
+        "lon": -83.409123
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 38.952,
+          "lon": -83.40972
+        },
+        "btmRightPoint": {
+          "lat": 38.95077,
+          "lon": -83.40865
+        }
+      }
+    },
+    {
+      "type": "Street",
+      "id": "5z2VEU0mQUCGe-bdwLlalg",
+      "score": 4.6116523743,
+      "address": {
+        "streetName": "Charlotte Avenue",
+        "municipality": "Turtlecreek",
+        "countrySecondarySubdivision": "Warren",
+        "countrySubdivision": "OH",
+        "countrySubdivisionName": "Ohio",
+        "countrySubdivisionCode": "OH",
+        "postalCode": "45036",
+        "extendedPostalCode": "45036-1104, 45036-1105, 45036-1108, 45036-1109",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "Charlotte Avenue, Lebanon, OH 45036",
+        "localName": "Lebanon"
+      },
+      "position": {
+        "lat": 39.473796,
+        "lon": -84.192596
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 39.48285,
+          "lon": -84.20544
+        },
+        "btmRightPoint": {
+          "lat": 39.46487,
+          "lon": -84.18214
+        }
+      }
+    },
+    {
+      "type": "Street",
+      "id": "VWH_98iyfTZrgTS-WBF8Ug",
+      "score": 4.6116523743,
+      "address": {
+        "streetName": "Charlotte Avenue",
+        "municipality": "Oak Hill",
+        "countrySecondarySubdivision": "Jackson",
+        "countrySubdivision": "OH",
+        "countrySubdivisionName": "Ohio",
+        "countrySubdivisionCode": "OH",
+        "postalCode": "45656",
+        "extendedPostalCode": "45656-1302, 45656-1325, 45656-1326, 45656-1339",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "Charlotte Avenue, Oak Hill, OH 45656",
+        "localName": "Oak Hill"
+      },
+      "position": {
+        "lat": 38.892612,
+        "lon": -82.575988
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 38.89408,
+          "lon": -82.57618
+        },
+        "btmRightPoint": {
+          "lat": 38.89153,
+          "lon": -82.57583
+        }
+      }
+    }
+  ]
+}
