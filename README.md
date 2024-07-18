@@ -30,6 +30,8 @@ Run unit tests
 yarn test
 ```
 
+To run the E2E tests that targets the live TomTom API, enable the "Tomtom Places E2E Tests" test suite by setting `JEST_ENABLE_E2E=true`
+
 ## Documentation
 
 -   [TomTom Search API Documentation](https://developer.tomtom.com/search-api/documentation/product-information/introduction)

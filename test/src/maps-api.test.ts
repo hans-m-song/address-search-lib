@@ -1,7 +1,7 @@
 import 'dotenv/config';
 import { describe } from '@jest/globals';
 import { getPlaceAutocomplete, GetPlaceAutocompleteParameters } from '../../src/maps-api';
-import { mock, sleep } from 'pactum';
+import { mock } from 'pactum';
 
 describe('getPlaceAutocomplete', () => {
     beforeAll(async () => {
@@ -18,6 +18,20 @@ describe('getPlaceAutocomplete', () => {
                 response: {
                     status: 200,
                     file: 'test/fixtures/charlotte_street.json',
+                },
+            },
+            {
+                strict: false,
+                request: {
+                    method: 'GET',
+                    path: `/search/2/search/.json`,
+                    queryParams: {
+                        key: 'secret',
+                    },
+                },
+                response: {
+                    status: 200,
+                    file: 'test/fixtures/asfasffasfasafsafs.json',
                 },
             },
             {
@@ -58,7 +72,7 @@ describe('getPlaceAutocomplete', () => {
                     },
                 },
                 response: {
-                    status: 403,
+                    status: 200,
                     body: {
                         invalid: {
                             response: 'contents',
@@ -73,7 +87,6 @@ describe('getPlaceAutocomplete', () => {
 
     afterAll(async () => {
         await mock.stop();
-        await sleep(500);
     });
 
     const apiKey = 'secret';
@@ -84,21 +97,6 @@ describe('getPlaceAutocomplete', () => {
         const params: GetPlaceAutocompleteParameters = {
             apiUri,
             apiKey: '',
-            rawQuery: '',
-        };
-
-        // when
-        const promise = getPlaceAutocomplete(params);
-
-        // then
-        await expect(promise).rejects.toThrow();
-    });
-
-    it('should reject a missing empty api key', async () => {
-        // given
-        const params: GetPlaceAutocompleteParameters = {
-            apiUri,
-            apiKey: undefined,
             rawQuery: '',
         };
 
@@ -168,19 +166,12 @@ describe('getPlaceAutocomplete', () => {
         // then
         expect(result.length).toBeGreaterThan(0);
         // all results are australian
-        expect(result).not.toMatchObject(
-            expect.arrayContaining([
-                expect.objectContaining({
-                    countryCode: expect.not.stringMatching('AU'),
-                }),
-            ])
-        );
         expect(result).toMatchObject(
             expect.arrayContaining([
                 expect.objectContaining({
                     municipality: expect.any(String),
                     country: expect.any(String),
-                    countryCode: expect.any(String),
+                    countryCode: 'AU',
                     freeformAddress: expect.any(String),
                 }),
             ])

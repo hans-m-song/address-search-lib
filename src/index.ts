@@ -3,7 +3,7 @@ import { Address, getPlaceAutocomplete } from './maps-api';
 /**
  * Provides a simplified interface for fuzzy text address searches
  *
- * @deprecated for more options, refer to getPlaceAutocomplete
+ * for more options, refer to getPlaceAutocomplete
  *
  * @param address Free text field to autocomplete
  */
